@@ -10,11 +10,14 @@ Configuration of Spring-boot that fits my preferences. To be used as a template 
 - Access log
 - Logging of correlation id
 - Onion style architecture
+- Flyway
 - ArchUnit to ensure architecture
 - Spring Security for OAuth/OIDC
 - Setup for repository tests
 - Setup for controller tests
 - Setup for unit-tests
+- Setup for tesing FlyWay-scripts
+- Setup for https://www.baeldung.com/spring-boot-testing
 - Maven plugin for code formatting
 - KeePass for sharing dev secrets?
 - OpenAPI spec/swagger on rest endpoints
@@ -24,6 +27,7 @@ Configuration of Spring-boot that fits my preferences. To be used as a template 
 - Proper setup for release/deploy of artifacts
 - Semantic versioning based on commit comments (?)
 - Jenkins pipeline
+- Actuators : Prometheus, health
 
 
 
