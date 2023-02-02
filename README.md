@@ -17,6 +17,7 @@ Configuration of Spring-boot that fits my preferences. To be used as a template 
 - Setup for controller tests
 - Setup for unit-tests
 - Setup for tesing FlyWay-scripts
+- Setup for integration tests: https://www.baeldung.com/integration-testing-in-spring https://www.baeldung.com/spring-tests
 - Setup for https://www.baeldung.com/spring-boot-testing
 - Maven plugin for code formatting
 - KeePass for sharing dev secrets?
@@ -28,6 +29,9 @@ Configuration of Spring-boot that fits my preferences. To be used as a template 
 - Semantic versioning based on commit comments (?)
 - Jenkins pipeline
 - Actuators : Prometheus, health
+- Metrics with Micrometer https://www.baeldung.com/micrometer
+- Metrics for all requests/responses
+- Default dashboard for Grafana
 
 
 
