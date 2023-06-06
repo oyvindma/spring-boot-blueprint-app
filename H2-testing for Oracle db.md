@@ -54,9 +54,6 @@ class DataSourceConfig(val dataSourceProperties: DataSourceProperties) {
             JdbcTemplate(dataSource()).queryForList("select ID from KODEVERK", String::class.java).size == 0
         if (kodeverkMangler) {
             databasePopulator.leggtilSkript(ClassPathResource("kodeverk.sql"))
-            databasePopulator.leggtilSkript(ClassPathResource("autosysenhetskoder.sql"))
-            databasePopulator.leggtilSkript(ClassPathResource("geografiskForhold.sql"))
-            databasePopulator.leggtilSkript(ClassPathResource("handlingForRolle.sql"))
         }
         val dataSourceInitializer = DataSourceInitializer()
         dataSourceInitializer.setDataSource(dataSource())
